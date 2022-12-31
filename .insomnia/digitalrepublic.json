@@ -1,0 +1,81 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-12-31T00:04:41.204Z",
+  "__export_source": "insomnia.desktop.app:v2022.7.0",
+  "resources": [
+    {
+      "_id": "req_800aaf56a01644d18388ed182d8c46bc",
+      "parentId": "wrk_9ed2464ae0dd44edaf256b7c8cc5d4f5",
+      "modified": 1672444715186,
+      "created": 1670723009597,
+      "url": "http://localhost:8080/api/v1/amount-of-paint",
+      "name": "Paint",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"walls\": [\n    {\n      \"width\": 5,\n      \"height\": 5,\n      \"window_quantity\": 1,\n      \"door_quantity\": 1\n    },\n    {\n      \"width\": 5,\n      \"height\": 5,\n      \"window_quantity\": 1,\n      \"door_quantity\": 1\n    },\n    {\n      \"width\": 5,\n      \"height\": 5,\n      \"window_quantity\": 1,\n      \"door_quantity\": 1\n    },\n    {\n      \"width\": 5,\n      \"height\": 5,\n      \"window_quantity\": 1,\n      \"door_quantity\": 1\n    }\n  ]\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1670713768200,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_9ed2464ae0dd44edaf256b7c8cc5d4f5",
+      "parentId": null,
+      "modified": 1671997850286,
+      "created": 1670717422775,
+      "name": "Paint Calculator",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_31be2954f2f008ced05fe7cc52ae252f6d00b6e1",
+      "parentId": "wrk_9ed2464ae0dd44edaf256b7c8cc5d4f5",
+      "modified": 1670717422818,
+      "created": 1670717422818,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1670717422818,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_36bc8d5d76e7ed3362c630d683245dbb96a3e79e",
+      "parentId": "wrk_9ed2464ae0dd44edaf256b7c8cc5d4f5",
+      "modified": 1670717422826,
+      "created": 1670717422826,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_8dcc4b1fd8b04a74bca358c277b89724",
+      "parentId": "wrk_9ed2464ae0dd44edaf256b7c8cc5d4f5",
+      "modified": 1670717422778,
+      "created": 1670717422778,
+      "fileName": "digital-republic-code-challenge",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
