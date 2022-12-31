@@ -8,7 +8,7 @@ help:  ## show this help
 	@egrep "^(.+)\:\ .*##\ (.+)" ${MAKEFILE_LIST} | sed 's/:.*##/#/' | column -t -c 2 -s '#'
 
 run: ## run it will instance server 
-	go run api/app.go
+	go run cmd/app.go
 
 .PHONY: test/cov
 test/cov:
