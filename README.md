@@ -75,9 +75,4 @@ make test/cov
 
 **Clean Arch**
 
-![Clean Arch](.gitlab/img.png)
-
-## Conclusions
-
-- **I would have implemented a database to expand the architecture but the challenge didn't ask**
-- **It was an excellent test**
+![Clean Arch](.github/img.png)
