@@ -1,6 +1,6 @@
 FROM golang:1.17.6-alpine
 # Add a work directory
-WORKDIR /ditalrepublic
+WORKDIR /paint-calculator
 # Cache and install dependencies
 COPY go.mod go.sum ./
 RUN go mod download
